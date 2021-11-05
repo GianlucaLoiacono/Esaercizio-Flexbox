@@ -1,0 +1,47 @@
+body{
+height: 100vh;
+padding: 0%;
+margin: 0%;
+}
+
+aside{
+    display: flex;
+    background-color:rgb(122, 175, 255);
+    width: 150px;
+    height: 100%;
+    flex-direction: column;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    background-color: rgb(4, 0, 230);
+}
+
+aside > ul {
+    flex: 1;
+    list-style: none;
+}
+aside > ul > li {
+    padding: 5px 0;
+}
+aside > ul > li > a {
+    color: #0000008c;
+    transition: 0.4s;
+    text-decoration: none;
+}
+aside > ul > li > a:hover {
+    color: #ff0000;
+}
+.profilo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}    
+.profilo > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+}
